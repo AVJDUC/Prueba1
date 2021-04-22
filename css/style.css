@@ -219,6 +219,8 @@ header h6+p {
 
 header.major {
     text-align: center;
+    margin-top: 25px;
+    margin-bottom: 150px;
 }
 
 header.major h2 {
@@ -951,6 +953,7 @@ input[type="button"]:disabled,
 
 .slider {
     position: relative;
+    margin-top: 110px;
 }
 
 .slider .viewer {
@@ -1388,6 +1391,7 @@ body.landing #skel-layers-wrapper {
 #logosm {
     height: 90%;
     padding-top: 5px;
+    margin-left: 15px;
 }
 
 .text-header {
@@ -1396,10 +1400,14 @@ body.landing #skel-layers-wrapper {
 
 .slider h3 {
     font-size: 1.8em;
+    margin-left: 20px;
 }
 
 .category-header {
     font-size: 0.9em;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .ul-ingre {
@@ -1408,4 +1416,30 @@ body.landing #skel-layers-wrapper {
 
 .ul-info {
     list-style-type: none;
+}
+
+.slider .slide .caption {
+    position: inherit;
+    bottom: 0px;
+    padding: 15px;
+    background: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.slider .slide .caption h3 {
+    margin: 0 0 20;
+    padding: 0;
+    color: #fff;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.slider .slide .caption p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
 }
